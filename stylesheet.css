@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTcwfHxsaWJyYXJ5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	margin:0px;
+}
+
+.head
+{
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:#FFF;
+	margin-left:50px;
+}
+#banner
+{
+	width:99.5%;
+	height:100px;
+	border:2px solid #FFF;
+	background-color:rgba(0,0,0,0.7);
+}
+.clg
+{
+	font-family:"Segoe UI";
+	font-size:16px;
+	color:#F9AA60;
+}
+
+
+.table
+{
+	border-radius:30px;
+	padding:0px 5px;
+	border:0px;
+	background-color:transparent;
+}

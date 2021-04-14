@@ -3,20 +3,44 @@
     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="login.php">Login</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link" href="bookshelf.php">Bookshelf</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="reading.php">Reading</a>
+    <a class="nav-link" href="borrowed.php">Borrowed</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link" href="records.php">Records</a>
   </li>
-  <li style="padding: 5px; margin-left: 700px" class="nav-item">
-    <button type="button" class="btn btn-warning">
-      Notifications <span class="badge bg-secondary">4</span>
-    </button>
+  
+ <!--  <li class="nav-item">
+    <a class="nav-link" href="login.php">Login</a>
+  </li> -->
+  
+  <?php
+  session_start();
+  if (isset($_SESSION['name'])) {
+    $name = $_SESSION['name'];
+    echo '
+    <li class="nav-item">
+    <a class="nav-link" href="logout.php">Log Out</a>
   </li>
+    ';
+    echo'
+  <li class="nav-item">
+    <a class="nav-link disabled" href="" tabindex="-1" aria-disabled="true">Hi,'.$name.'</a>
+  </li>
+  ';
+    # code...
+  }else{
+    echo '
+
+    <li class="nav-item">
+    <a class="nav-link" href="login.php">Log in</a>
+     </li>
+     ';
+
+  }    
+
+  ?>
+   
 </ul>
