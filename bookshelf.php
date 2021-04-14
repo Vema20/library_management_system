@@ -17,6 +17,7 @@
 <body>
 	<div class="container-fluid">
 		<?php
+		ob_start();
 		 include('nav.php');
 		// session_start();
 		 if (!isset($_SESSION['name'])) {
@@ -25,7 +26,7 @@
 		 }
 
 
-
+        ob_end_flush();
 		?>
 	</div>
 	<div id="banner">

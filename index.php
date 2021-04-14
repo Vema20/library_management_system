@@ -15,13 +15,14 @@
 <body>
 		<div class="container-fluid">
 			<?php 
+			ob_start();
 				include('nav.php');
 			// session_start();
 			 	if (!isset($_SESSION['name'])) {
 			// 	# code...
 				header('location:login.php');
 			 }
-
+             ob_end_flush();
 			?>
 			<div id="banner">
 				<span class="head">Library Management System</span><br />

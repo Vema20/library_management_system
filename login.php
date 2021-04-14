@@ -14,7 +14,9 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<?php include('nav.php')?>
+		<?php include('nav.php')
+
+		?>
 		<div id="banner">
 			<span class="head">Library Management System</span><br />
 			<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">Log In</marquee>
@@ -26,7 +28,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-5">
-				<img style="width: 450px;" src="https://cdn.pixabay.com/photo/2018/03/24/21/26/user-3257935__340.jpg" class="img-fluid">
+				<img style="width: 450px;" src="https://cdn.pixabay.com/photo/2018/02/28/12/25/login-3187888__340.jpg" class="img-fluid">
 				
 			</div>
 		
