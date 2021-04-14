@@ -84,7 +84,7 @@
 				<div class="col-4">
 					  <div style="border-radius: 30px;margin: 15px;background-color:#FACB9F;box-shadow: 10px 10px 8px 5px black" class="card-body">
 					    <u><h5 style="font-family: monospace;padding:5px;margin:25px;font-size: 30px; color:#E88B34" class="card-title">Our Mission</h5></u>
-					    <p style="font-family: cursive; font-size: 20px;"  class="card-text">Offer a wide range of approved,beneficial books; remotely and physically that as many people as possible will be able to access them.</p>
+					    <p style="font-family: cursive; font-size: 20px;"  class="card-text">Provide a dynamic learning environment that supports research, technology, resourceful learning, papers and archives that foster 21st Century learning. </p>
 					  </div>
 					</div>
 					<div class="col-4">
