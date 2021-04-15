@@ -93,8 +93,9 @@
 	?>
 	
 	<?php
+	ob_start();
 	if (isset($_POST['delete'])) {
-		// header('location:records.php');
+		header('location:bookshelf.php');
 		$bookId = $_POST['bookId'];
 		// query
 		$sql = "DELETE FROM books WHERE id=".$bookId;
@@ -103,7 +104,7 @@
 		if ($result) {
 			echo '
 			<div class="alert alert-warning" role="alert">
-			  Book successfully deleted
+			  Book successfully returned.
 			</div>
 			';
 			# code...
@@ -112,7 +113,7 @@
 		}
 	}
 
-
+      ob_end_flush();
 	?>
 	</table>
 </center>
