@@ -39,7 +39,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-4">
-				<img style="width:500px;height: 350px" src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHJlZ2lzdGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid">
+				<img style="width: 500px;height: 400px;" src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img-fluid"> 
 				
 			</div>
 

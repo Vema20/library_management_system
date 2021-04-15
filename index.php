@@ -52,12 +52,12 @@
 						    	<img  style="width: 450px;height: 450px" src="https://cdn.pixabay.com/photo/2020/02/06/20/01/university-library-4825366__340.jpg" class="d-block w-100" alt="..." class="img-fluid">  
 						    </div>
 						    <div class="carousel-item">
-						    <img style="width: 450px;height: 450px"src="https://images.unsplash.com/photo-1613191414063-e87cefa3b3ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" class="d-block w-100" alt="..." class="img-fluid">
+						    <img style="width: 450px;height: 450px"src="https://images.pexels.com/photos/256219/pexels-photo-256219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100" alt="..." class="img-fluid">
 							</div>
 
-							<div class="carousel-item">
+							<!-- <div class="carousel-item">
 						      <img  style="width: 450px;height: 450px" src="https://cdn.pixabay.com/photo/2013/07/13/12/33/shelf-159852__340.png" class="d-block w-100" alt="..." class="img-fluid">
-						    </div>
+						    </div> -->
 
 						    <div class="carousel-item">
 						      <img  style="width: 450px;height: 450px"src="https://cdn.pixabay.com/photo/2020/05/16/16/43/book-5178205__340.jpg" class="d-block w-100" alt="..." class="img-fluid">
